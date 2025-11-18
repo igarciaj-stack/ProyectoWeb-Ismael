@@ -1,17 +1,26 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
-    background-color: white;
+    font-size: 16px; /*1rem = 16px*/
 }
 
 h1{
-    background-color: green;
-    color: red;
-    text-align: center;
+    font-size: 2.5rem;
 }
 
 h2{
-    color: blue;
+    font-size: 1.8rem;
 }
 
-h3{
-    color: orange;
+.titulo{
+    color: #0077b6;
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.titulo span{
+    color: #187e29;
+    font-size: 2rem;
 }
