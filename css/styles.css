@@ -158,13 +158,7 @@ h1,h2,h3{
 
 }
 
-.micontenido{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding: 1rem 1rem 1rem 1rem;
-}
+
 
 @media (min-width:768px) {
     .micontenido{
@@ -209,4 +203,45 @@ h1,h2,h3{
     justify-content: center;
     gap: 40px;
 }
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin-top: 30px;
+    grid-column: 1 / -1;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    width: min(60rem,100%);
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: var(--secundario);
+    font-weight: bold;
+    display: block;
+}
+
 
